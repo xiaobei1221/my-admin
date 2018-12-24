@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import {Link} from 'react-router';
-// import logo from './logo.svg';
+import logo from './logo.svg';
 import { Menu, Icon } from 'antd';
 import 'antd/dist/antd.css';
 import './App.css';
@@ -24,6 +24,8 @@ class App extends Component {
     return (
       <div className="App" style={{width:'100%',height:'100%'}}>
         <div className="left_Menu" style={{height:"100%",width:"16%",float:"left",backgroundColor:"#323332",position:"fixed",left:0,top:0,overflowX:"hidden"}}>
+        <img src={logo} width="80" style={{marginTop:"30px"}} alt="头像"/>
+
         <Menu
         onClick={this.handleClick}
         style={{ width:"100%",height:"100%",backgroundColor:"#323332",color:"#e5e5e5",paddingTop:"20px"}}
@@ -34,7 +36,7 @@ class App extends Component {
         <SubMenu key="sub1" title={<span><Icon type="mail" /><span> 导航一</span></span>} style={sub_style}>
           {/* <MenuItemGroup key="g1" title="Item 1"> */}
             <Menu.Item key="1" style={sub_style}><Link to="/table" style={{color:"#e5e5e5"}}>表格</Link></Menu.Item>
-            <Menu.Item key="2" style={sub_style}>Option 2</Menu.Item>
+            <Menu.Item key="2" style={sub_style}><Link to="/form" style={{color:"#e5e5e5"}}>表单</Link></Menu.Item>
           {/* </MenuItemGroup> */}
         </SubMenu>
         <SubMenu key="sub2" title={<span><Icon type="appstore" /><span>导航二</span></span>} style={{backgroundColor:"#323332"}}>

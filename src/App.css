@@ -46,3 +46,7 @@ a{
 .ant-menu-inline .ant-menu-item, .ant-menu-inline .ant-menu-submenu-title{
   width:calc(100%)
 }
+
+
+/* 隐藏滚动条 */
+::-webkit-scrollbar {display:none}

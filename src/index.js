@@ -6,11 +6,14 @@ import * as serviceWorker from './serviceWorker';
 import {Router,Route,hashHistory,IndexRoute} from 'react-router';
 
 import Tables from './components/table';
+import Myform from './components/form';
+
 
 ReactDOM.render(<Router history={hashHistory}>
     <Route path="/" component={App}>
     <IndexRoute component={Tables}/>
     <Route path="/table" component={Tables}></Route>
+    <Route path="/form" component={Myform}></Route>
 
     </Route>
 
