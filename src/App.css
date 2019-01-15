@@ -36,7 +36,7 @@
 .ant-menu-submenu > .ant-menu{
   background-color: #323332;
   text-align: center;
-  color:#e5e5e5
+  color:#ffffff
 }
 
 a{
@@ -45,6 +45,15 @@ a{
 
 .ant-menu-inline .ant-menu-item, .ant-menu-inline .ant-menu-submenu-title{
   width:calc(100%)
+}
+
+.ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected{
+  background-color:#1890ff
+
+}
+
+.ant-menu-inline, .ant-menu-vertical, .ant-menu-vertical-left{
+  border:none
 }
 
 

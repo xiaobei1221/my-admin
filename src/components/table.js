@@ -82,7 +82,7 @@ class Tables extends Component {
     };
 
         return (
-            <div>
+            <div style={{backgroundColor:"#fff"}}>
                 
                 <Table rowSelection={rowSelection} columns={columns} dataSource={data}/>
             </div>
