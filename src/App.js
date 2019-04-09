@@ -51,7 +51,7 @@ class App extends Component {
       </Menu>
         </div>
         <div className="right_content" style={{width:"85%",padding:"23px",marginLeft:"15%",backgroundColor:"#F0F2F5"}}> 
-            <p style={{}}><i>刘贝</i></p>
+            <p style={{}}><i>刘贝0000</i></p>
             <hr/>
             <div>
               {this.props.children}
