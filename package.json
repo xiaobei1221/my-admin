@@ -1,7 +1,7 @@
 {
   "name": "my-admin",
   "version": "0.1.0",
-  "homepage":"https://xiaobei1221.github.io/my-admin",
+  "homepage": "https://xiaobei1221.github.io/my-admin",
   "private": true,
   "dependencies": {
     "@babel/core": "7.1.0",
@@ -60,8 +60,8 @@
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
     "test": "node scripts/test.js",
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d build"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
