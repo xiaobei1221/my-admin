@@ -13,8 +13,8 @@ class Carousels extends Component {
     
     render() {
         return (
-            <div class="carousel_wrap">
-                <div class="carousel_tips">
+            <div className="carousel_wrap">
+                <div className="carousel_tips">
                     <h3>何时使用</h3>
                     <hr/>
                     <p>当有一组平级的内容。</p>

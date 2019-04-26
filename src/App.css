@@ -52,6 +52,11 @@ a{
 
 }
 
+.ant-menu-item-selected{
+  background-color:#1890ff
+
+}
+
 .ant-menu-inline, .ant-menu-vertical, .ant-menu-vertical-left{
   border:none
 }

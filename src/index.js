@@ -8,6 +8,7 @@ import {Router,Route,hashHistory,IndexRoute} from 'react-router';
 import Tables from './components/table';
 import Myform from './components/form';
 import Carousels from './components/show/carousel';
+import Echart from './components/echart';
 
 
 
@@ -17,6 +18,8 @@ ReactDOM.render(<Router history={hashHistory}>
     <Route path="/table" component={Tables}></Route>
     <Route path="/form" component={Myform}></Route>
     <Route path="/carousel" component={Carousels}></Route>
+    <Route path="/echart" component={Echart}></Route>
+
 
 
     </Route>
